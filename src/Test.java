@@ -10,7 +10,7 @@ public class Test {
         Kort kort2 = new Kort();
         kort2.färg = Kort.klöver;
         kort2.nummer = 7;
-        System.out.println(kort1.färg + " " + kort1.nummer);
-        System.out.println(kort2.färg + " " + kort2.nummer);
+        System.out.println(kort1.toString());
+        System.out.println(kort2.toString());
     }
 }

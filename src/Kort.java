@@ -15,4 +15,30 @@ public class Kort {
 
     int färg;
     int nummer;
+
+    public String toString(){
+        //inte klar
+        if(this.färg == 0){
+            this.färg = "Klöver";
+        } else if (this.färg == 1){
+            this.färg = "Ruter";
+        } else if (this.färg == 2){
+            this.färg = "Hjärter";
+        } else
+            this.färg = "Spader";
+
+        if(this.nummer == 11){
+            this.nummer == "Knäkt";
+        } else if(this.nummer == 12){
+            this.nummer == "Dam";
+        } else if(this.nummer == 13){
+            this.nummer == "Kung";
+        } else if(this.nummer == 14){
+            this.nummer == "Ess";
+        } else
+            return this.färg + " " + this.nummer;
+
+        return this.färg + " " + this.nummer;
+
+    }
 }
